@@ -25,4 +25,9 @@ ashleysaelens0@yahoo.com
 
 ## Links:
 
-github repo: 
+github repo: https://github.com/asaelens02/AKS_Note_Taker_11 
+
+## Issues:
+
+Was unable to deploy to Heroku, get a GET error, npm start works. 
+
