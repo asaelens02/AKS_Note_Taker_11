@@ -6,7 +6,16 @@ const app = express();
 
 const notes = require('./Develop/db/db.json');
 
-app.listen (3001, () => {
+//adds layer to the middleware stack
 
-    console.log ('server now on port 3001');
-})
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+app.use(express.static('public'));
+
+//apiRoutes
+app.use ('./api', apiRoutes);
+app.use ('./', htmlRoutes);
+
+app.listen(PORT, () => {
+    console.log ('API server on port ${PORT}!');
+});
