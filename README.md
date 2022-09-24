@@ -1,6 +1,6 @@
-<<<<<<< HEAD
-# Note Taker Starter Code
-=======
+![Screenshot 2022-09-24 125126](https://user-images.githubusercontent.com/104400626/192111967-f0b8e690-e359-4167-a857-049839d20c46.png)
+![Screenshot 2022-09-24 125214](https://user-images.githubusercontent.com/104400626/192111968-fd571800-71ab-4927-832c-a87131adc008.png)
+
 # AKS_Note_Taker_11
 
 ## About the project:
